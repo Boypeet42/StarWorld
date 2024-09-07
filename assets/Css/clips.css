@@ -1456,3 +1456,98 @@
     display: flex;
 }
 /***************lista de artistas fim**************/
+
+/***************responsividade**************/
+@media(max-width: 1000px){
+    .left{
+        display: none;
+    }
+    .cont{
+        display: none;
+    }
+    .wrapper2{
+        display: none;
+    }
+    .artist{
+        display: none;
+    }
+    .fix-rits{
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    .search-box3{
+        width: 20px;
+    }
+    .barra-top{
+        margin-left: 45px;
+        background: var(--color-light);
+    }
+    .nav-left{
+        margin-top: 6px;
+        background: var(--color-light);
+    }
+    .nav-left a p{
+        font-size: 18px;
+        background: var(--color-light);
+        padding: 9px 0px;
+        margin-top: -20px;
+        border-radius: 4px;
+    }
+    .nav-left a img{
+      margin-left: 5px;
+      margin-bottom: 5px;
+    }
+    .nav-left a .icon{
+      background: var(--color-light);
+      height: 25px;
+    }
+  
+    .search-box3:hover{
+        width: 380px;
+        margin-left: -30px;
+    }
+    .search-box3:hover .search-btn3{
+       margin-left: -23px;
+       background: var(--color-primary);
+    }
+    .search-box3:hover .search-btn3::placeholder{
+       color: black;
+    }
+    .search-box3 input{
+        margin-right: 5px;
+        width: 120px;
+    }
+  
+    .search-box3 .search-btn3{
+        margin-right: 29px;
+        margin-top: -16px;
+        height: 28px;
+        padding-top: 6px;
+        padding-right: 5px;
+    }
+    .header-right{
+        position: absolute;
+        top: 60px;
+    }
+    .header-right .open-menu-btn{
+        background: transparent;
+    }
+    .header-right .open-menu-btn img{
+      border-radius: 50%;
+      background: var(--color-primary);
+    }
+    .plano-total {
+        margin-top: -29%;
+        height: 113%;
+    }
+    .sidebar{
+        background: var(--color-primary);
+    }
+    .h4 .btn_s {
+        margin-left: 1200px;
+    }
+    .right{
+        display: none;
+    }
+}
